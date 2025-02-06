@@ -15,7 +15,7 @@ from mcp.server.models import InitializationOptions
 from pydantic import AnyUrl, BaseModel
 from snowflake.snowpark import Session
 
-from mcp_snowflake_server.write_detector import SQLWriteDetector
+from mcp_server_snowflake.write_detector import SQLWriteDetector
 
 # Configure logging
 logging.basicConfig(

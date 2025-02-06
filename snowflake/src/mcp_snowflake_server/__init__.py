@@ -4,7 +4,7 @@ import os
 
 import dotenv
 
-from mcp_snowflake_server import server
+from mcp_server_snowflake import server
 
 
 def main():
